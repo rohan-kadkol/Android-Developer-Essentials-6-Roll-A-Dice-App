@@ -15,7 +15,7 @@ Random throws of your favorite dice.
 
 ### Screenshots
 <br>
-<img src="images/screenshot.gif">
+<img src="images/screenshot_1.gif">
 
 <br>
 <br>
