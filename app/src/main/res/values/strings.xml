@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Roll A Dice</string>
+    <string name="main_overline">Random throws of your favorite dice</string>
+    <string name="main_title">Which dice do you want to throw?</string>
+    <string name="default_label">Default</string>
+    <string name="trendy_label">Trendy</string>
+    <string name="roll">Roll</string>
+</resources>
