@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--TODO: Add two TextViews, two Buttons to match the final app layout-->
-    <!--TODO: Add appropriate color and typography styles using the Material Design Library dependency-->
+    <!--TODO (1): Add two TextViews, two Buttons to match the final app layout-->
+    <!--TODO (2): Use LinearLayouts where applicable-->
+    <!--TODO (3): Add the appropriate methods in MainActivity.java to the onClick attributes of the Buttons-->
+    <!--TODO (5): Add appropriate typography styles using the Material Design Library dependency-->
 </androidx.constraintlayout.widget.ConstraintLayout>

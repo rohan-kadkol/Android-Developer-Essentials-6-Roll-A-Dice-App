@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--TODO: Change this ConstraintLayout to a LinearLayout-->
+<!--TODO (12): Change this ConstraintLayout to a LinearLayout-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DiceActivity">
-    <!--TODO: Change the orientation of the LinearLayout to vertical-->
-    <!--TODO: Change the background color to primary-light-->
+    <!--TODO (13): Change the orientation of the LinearLayout to vertical-->
+    <!--TODO (14): Change the background color to primary-light-->
 
-    <!--TODO: Add an ImageView-->
-    <!--TODO: Add a Button-->
-    <!--TODO: Add the rollDice method to the onClick attribute of the above Button-->
-    <!--TODO: Wrap the above Button with a FrameLayout-->
-    <!--TODO: Add weights to the ImageView and the FrameLayout. Eg. 7:3 space respectively-->
+    <!--TODO (15): Add an ImageView-->
+    <!--TODO (16): Add a Button-->
+    <!--TODO (17): Add the rollDice method to the onClick attribute of the above Button-->
+    <!--TODO (18): Wrap the above Button with a FrameLayout-->
+    <!--TODO (19): Add weights to the ImageView and the FrameLayout. Eg. 7:3 space respectively-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

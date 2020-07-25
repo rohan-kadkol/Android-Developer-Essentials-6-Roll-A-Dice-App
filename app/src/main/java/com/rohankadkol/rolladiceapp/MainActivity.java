@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onDefaultClicked(View view) {
-        // TODO: Add an intent to take you to the DiceActivity
-        // TODO: Add an extra to that intent to show "default" dice
+        // TODO (8): Add an intent to take you to the DiceActivity
+        // TODO (9): Add an extra to that intent to show "default" dice
     }
 
     public void onTrendyClicked(View view) {
-        // TODO: Add an intent to take you to the DiceActivity
-        // TODO: Add an extra to that intent to show "trendy" dice
+        // TODO (10): Add an intent to take you to the DiceActivity
+        // TODO (11): Add an extra to that intent to show "trendy" dice
     }
 }

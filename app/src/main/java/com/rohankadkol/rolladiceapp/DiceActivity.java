@@ -25,15 +25,15 @@ public class DiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dice);
 
-        //TODO: Use findViewById() to assign mIvDice to the ImageView in activity_dice.xml
+        //TODO (20): Use findViewById() to assign mIvDice to the ImageView in activity_dice.xml
         mIvDice = findViewById(0);
 
-        //TODO: Assign diceType with the value from the intent extra
+        //TODO (21): Assign diceType with the value from the intent extra
         diceType = "";
 
         showRandomDice();
 
-        // TODO: Add a back button and set the title of the ActionBar
+        // TODO (25): Add a back button and set the title of the ActionBar to the diceType in sentence case
     }
 
     public void onRollClicked(View view) {
@@ -43,9 +43,9 @@ public class DiceActivity extends AppCompatActivity {
     private void showRandomDice() {
         int diceNumber = mRandom.nextInt(6) + 1;
         String imageUrl = "https://android-weekly-series-backend.herokuapp.com/" + diceType + "/" + diceNumber;
-        //TODO: Use Picasso to load the image from imageUrl into the mIvDice ImageView
+        //TODO (23): Use Picasso to load the image from imageUrl into the mIvDice ImageView
         Log.d("DEBUG", "showRandomDice: " + imageUrl);
     }
 
-    // TODO: Override onOptionsItemsSelected() to go back when the back button is clicked
+    // TODO (26): Override onOptionsItemsSelected() to go back when the back button is clicked
 }

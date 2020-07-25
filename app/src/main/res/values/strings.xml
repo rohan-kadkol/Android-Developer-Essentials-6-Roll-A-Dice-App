@@ -1,15 +1,9 @@
 <resources>
     <string name="app_name">Roll A Dice</string>
 
-    <!--TODO: Confirm you have a string resource for main_overline-->
-    <!--TODO: Confirm you have a string resource for main_title-->
-    <!--TODO: Confirm you have a string resource for default_label-->
-    <!--TODO: Confirm you have a string resource for trendy_label-->
-    <!--TODO: Confirm you have a string resource for roll-->
-
-    <string name="main_overline">Random throws of your favorite dice</string>
-    <string name="main_title">Which dice do you want to throw?</string>
-    <string name="default_label">Default</string>
-    <string name="trendy_label">Trendy</string>
-    <string name="roll">Roll</string>
+    <!--TODO (27): Confirm you have a string resource for main_overline-->
+    <!--TODO (28): Confirm you have a string resource for main_title-->
+    <!--TODO (29): Confirm you have a string resource for default_label-->
+    <!--TODO (30): Confirm you have a string resource for trendy_label-->
+    <!--TODO (31): Confirm you have a string resource for roll-->
 </resources>

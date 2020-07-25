@@ -27,8 +27,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    // TODO: Add the Material Design dependency (https://material.io/develop/android/docs/getting-started)
-    // TODO: Add the Picasso Library dependency (https://square.github.io/picasso/)
+    // TODO (4): Add the Material Design dependency (https://material.io/develop/android/docs/getting-started)
+    // TODO (22): Add the Picasso Library dependency (https://square.github.io/picasso/)
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
 }
