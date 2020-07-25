@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<!--TODO: Change this ConstraintLayout to a LinearLayout-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DiceActivity"
-    android:orientation="vertical"
-    android:background="@color/primary_light">
+    tools:context=".DiceActivity">
+    <!--TODO: Change the orientation of the LinearLayout to vertical-->
+    <!--TODO: Change the background color to primary-light-->
 
-    <ImageView
-        android:id="@+id/iv_dice"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_weight="7"/>
+    <!--TODO: Add an ImageView-->
+    <!--TODO: Add a Button-->
+    <!--TODO: Add the rollDice method to the onClick attribute of the above Button-->
+    <!--TODO: Wrap the above Button with a FrameLayout-->
+    <!--TODO: Add weights to the ImageView and the FrameLayout. Eg. 7:3 space respectively-->
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/roll"
-            android:layout_gravity="center"
-            android:onClick="onRollClicked"/>
-
-    </FrameLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

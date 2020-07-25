@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rohankadkol.rolladiceapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--TODO: Add the INTERNET permission-->
 
     <application
         android:allowBackup="true"
